@@ -5,65 +5,109 @@
 
 	<style type="text/css">
 	.container{
-		width: 960px;
+		margin: auto;
+	    width: 960px;
+	    border:1px solid;
+	    list-style-type: none;
+	    overflow:hidden;
 	}
-	.element{
+	li{
 		float: left;
-		width: 310px;
+		width: 300px;
 		height: 400px;
 		border: 1px solid;
+		margin-bottom: 47px;
+		
+	}
+	li:nth-child(3n-1) {
+		margin-left: 47px;
+		margin-right: 47px;
+	}
+	li:nth-child(3n-2) {
+		margin: 0 0 0 -40px;
+		
 	}
 	img{
 		width: 200px;
 		height: 200px;
-		padding-left: 13%;
+		
+		padding: 15px;
+	}
+	.inner{
+	   list-style:none;
 	}
 	</style>
 
 </head>
 <body>
 	<h1 align="center">List of Person Details</h1>
-	<div class="container">
-		<div class="element">
-			<img src="http://enzosakay.com/images/Profilelogo.png">
-			<div>
-				Person name <br>
-				Age <br>
-				Designation <br>
-			</div>
-		</div>
-		<div class="element">
-			<img src="http://enzosakay.com/images/Profilelogo.png">
-			<div>
-				Person name <br>
-				Age <br>
-				Designation <br>
-			</div>
-		</div>
-		<div class="element">
-			<img src="http://enzosakay.com/images/Profilelogo.png">
-			<div>
-				Person name <br>
-				Age <br>
-				Designation <br>
-			</div>
-		</div>
-		<div class="element">
-			<img src="http://enzosakay.com/images/Profilelogo.png">
-			<div>
-				Person name <br>
-				Age <br>
-				Designation <br>
-			</div>
-		</div>
-		<div class="element">
-			<img src="http://enzosakay.com/images/Profilelogo.png">
-			<div>
-				Person name <br>
-				Age <br>
-				Designation <br>
-			</div>
-		</div>
-	</div>
+	
+	<ul class="container">
+		<li>
+			<ul class="inner">
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<img src="http://enzosakay.com/images/Profilelogo.png">
+				<p>
+					Deatails of the person
+				</p>
+			</ul>
+		</li>
+	</ul>
+	
 </body>
 </html>
